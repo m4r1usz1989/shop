@@ -1,0 +1,12 @@
+// custom variables
+@import 'custom/base/variables';
+
+// import Bootstrap 4 source
+@import 'bootstrap/bootstrap'; 
+
+// import custom styles
+@import 'custom/base/mixins';
+@import 'custom/base/typography';
+@import 'custom/components/components';
+@import 'custom/pages/pages';
+

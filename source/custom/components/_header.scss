@@ -1,0 +1,11 @@
+.sk-header-item-link {
+    font-size: 0.65rem;
+    @include media-breakpoint-up(md) {
+        padding: 1.65rem 1.25rem;
+    }
+}
+
+// active menu position
+.sk-header-item-active {
+    background-color: $sk-white;
+}
