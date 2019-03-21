@@ -24,3 +24,14 @@
     width: $w;
     height: $h;
 }
+
+// text light Oswald
+@mixin sk-font-light-secondary {
+    font-size: 300;
+    font-family: $sk-font-family-secondary;
+}
+
+// transition
+@mixin sk-basic-transition {
+    transition: all .25s ease-in-out;
+}
